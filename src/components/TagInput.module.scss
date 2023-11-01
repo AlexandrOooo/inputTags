@@ -1,0 +1,22 @@
+.tag {
+  padding: 3px 8px;
+  font-size: 16px;
+  color: rgb(0 17 51 / 1);
+  background-color: rgb(246 248 250 / 1);
+  border: 1px solid rgb(209 216 224);
+  display: inline-flex;
+  align-items: center;
+}
+.editInput {
+  width: 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.editInput:focus {
+  min-width: 70px;
+  cursor: text;
+}
+.verticalDivider {
+  margin: 0 5px 2px 5px;
+}

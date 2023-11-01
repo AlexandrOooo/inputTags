@@ -78,7 +78,7 @@ function Home() {
         className={styles["input-container"]}
         onInput={(e) => findMatchNames(e)}
       ></div>
-      {matchedTags.length && (
+      {matchedTags.length ? (
         <ul
           className={styles["matched-tags"]}
           style={{ top: position.top, left: position.left }}
@@ -94,7 +94,7 @@ function Home() {
             </li>
           ))}
         </ul>
-      )}
+      ) : null}
     </>
   );
 }
